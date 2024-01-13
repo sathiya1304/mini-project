@@ -1,0 +1,35 @@
+
+    
+    .form-style input{
+        border:0;
+        height:50px;
+        border-radius:5px;
+    border-bottom:1px solid #ebebeb;	
+    }
+    .form-style input:focus{
+    border-bottom:1px solid #007bff;	
+    box-shadow:none;
+    outline:0;
+    background-color: papayawhip;	
+    }
+    
+    button{
+    height:50px;	
+    }
+    
+   
+    .img1{
+            height: 300px;
+            min-width: 100%;
+            min-height: 100%
+    }
+   .con{
+    height: 100vh;
+   }
+   .samecon{
+    height: 80%;
+   }
+   .samecon1{
+    height: 80%;
+    background-color: wheat;
+   }
