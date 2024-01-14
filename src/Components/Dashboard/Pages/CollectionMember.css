@@ -1,5 +1,5 @@
 .form-container{
-    background-color: rgba(245, 247, 210, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
     font-family: 'Titillium Web', sans-serif;
     padding: 25px 30px 30px;
     box-shadow: 10px 10px 10px rgba(5, 2, 212, 0.3);
@@ -120,8 +120,8 @@
 
 
 
-.bg-image2{
-    background-image: url("../../../assets/investback.jpg");
+.bg-image1{
+    background-image: url("../../../assets/collectionback.jpg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;

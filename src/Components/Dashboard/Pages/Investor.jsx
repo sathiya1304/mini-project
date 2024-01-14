@@ -15,7 +15,7 @@ const Investor = () => {
     setImage(event.target.files[0]);
   }
   return (
-    <div className='investbgimg'>
+    <div class="bg-image2">
       <div class="form-bg">
         <div class="container">
           <div class="row">
@@ -24,40 +24,39 @@ const Investor = () => {
                 <h3 class="title">Investor Register</h3>
                 <form class="form-horizontal">
                   <div class="form-group">
-                    <label>Account Number*</label>
+                    <label >Account Number*</label>
                     <input class="form-control" type="text" />
                   </div>
                   <div class="form-group">
-                    <label>Account Name*</label>
-                    <input class="form-control" type="email" />
+                    <label >Account Name*</label>
+                    <input class="form-control" type="text" />
                   </div>
                   <div class="form-group">
                     <label>Aadhar Number*</label>
-                    <input class="form-control" type="password" />
+                    <input class="form-control"  type="text"/>
                   </div>
                   <div class="form-group">
                     <label>Contact Number*</label>
-                    <input class="form-control" type="password" />
+                    <input class="form-control"  type="text"/>
                   </div>
-
                   <div class="form-group">
                     <label>Address*</label>
-                    <textarea name="w3review"  ></textarea>
+                    <textarea class="form-control"  type="text"/>
                   </div>
-                  <div class="form-group status">
+                  <div class="form-group">
                     <label>Status*</label>
-                    <input class="form-control" type="text" />
+                    <input class="form-control" type="text"/>
                   </div>
                   <div class="form-group">
                     <label>Upload Profile*</label>
                     <div onClick={handleImageClick}>
 
                       {image ? (<img src={URL.createObjectURL(image)} alt="ddsd" height={100} width={100} className='img-display-before'/>)
-                        : <img src={require('../../../assets/profile.jpg')} alt="ddsd" height={100} width={100} className='img-display-after'/>}
+                        : <img src={require('../../../assets/upload.png')} alt="ddsd" height={100} width={100} className='img-display-after'/>}
                       <input class="form-control" type="file" onChange={handleImageChange} ref={inputRef} style={{ display: "none" }} />
                     </div>
                   </div>
-                  <button class="btn signin">Create Account</button>
+                <center><button className="shadow__btn">Create Account</button></center>
 
                 </form>
 

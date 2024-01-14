@@ -33,7 +33,7 @@ header svg{
     width: max-content;
     background-color: #1D044D ;
     position: absolute;
-    height: 95vh; 
+    min-height: 95vh;
     padding: 0 30px;
     left: -100%;
     transition: all 1s;
