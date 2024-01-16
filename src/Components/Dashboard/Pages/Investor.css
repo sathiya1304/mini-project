@@ -1,10 +1,11 @@
-.form-container{
+.form-container {
     background-color: rgba(245, 247, 210, 0.9);
     font-family: 'Titillium Web', sans-serif;
     padding: 25px 30px 30px;
     box-shadow: 10px 10px 10px rgba(5, 2, 212, 0.3);
 }
-.form-container .title{
+
+.form-container .title {
     color: #333;
     font-size: 24px;
     font-weight: 600;
@@ -13,7 +14,8 @@
     letter-spacing: 0.5px;
     margin: 0 0 25px;
 }
-.form-container .title:after{
+
+.form-container .title:after {
     content: '';
     background-color: #0cd674;
     height: 2px;
@@ -22,11 +24,13 @@
     clear: both;
     display: block;
 }
-.form-container .form-horizontal{
+
+.form-container .form-horizontal {
     margin: 0 0 20px;
     font-size: 0;
 }
-.form-container .form-horizontal .sub-title{
+
+.form-container .form-horizontal .sub-title {
     font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
@@ -35,46 +39,60 @@
     padding: 17px 0 0;
     border-top: 1px solid #d1d1d1;
 }
-.form-horizontal .form-group{
+
+.form-horizontal .form-group {
     width: calc(50% - 10px);
     margin: 0 10px 15px 0;
     display: inline-block;
-    
+
 }
-.form-horizontal .form-group:nth-child(even){ margin: 0 0 10px 10px; }
+
+.form-horizontal .form-group:nth-child(even) {
+    margin: 0 0 10px 10px;
+}
+
 .form-horizontal .form-group:nth-child(3),
-.form-horizontal .form-group:nth-child(4){
+.form-horizontal .form-group:nth-child(4) {
     margin-bottom: 25px;
 }
-.form-horizontal .form-group.phone-no{ margin: 0 10px 20px 0; }
-.form-horizontal .form-group.age{ margin: 0 0 20px 10px; }
-.form-horizontal .form-group label{
-   
+
+.form-horizontal .form-group.phone-no {
+    margin: 0 10px 20px 0;
+}
+
+.form-horizontal .form-group.age {
+    margin: 0 0 20px 10px;
+}
+
+.form-horizontal .form-group label {
+
     font-size: 13px;
     font-weight: 500;
     font-style: italic;
     margin: 0 0 3px;
 }
-.form-horizontal .form-control{
+
+.form-horizontal .form-control {
     color: #555;
     background-color: wheat;
-
     font-size: 14px;
     letter-spacing: 1px;
     height: 33px;
     padding: 5px;
     box-shadow: none;
     border: 1px solid #d1d1d1;
-    border-radius:5px;
+    border-radius: 5px;
     display: inline-block;
     transition: all 0.3s;
     border: 1px solid black;
 }
-.form-horizontal .form-control:focus{
+
+.form-horizontal .form-control:focus {
     box-shadow: none;
     border: 1px solid orangered;
 }
-.form-horizontal .btn{
+
+.form-horizontal .btn {
     color: #fff;
     background: #0cd674;
     font-size: 15px;
@@ -87,32 +105,39 @@
     display: block;
     transition: all 0.3s ease;
 }
+
 .form-horizontal .btn:hover,
-.form-horizontal .btn:focus{
+.form-horizontal .btn:focus {
     color: #fff;
     background-color: #0cd674;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3),0 0 10px rgba(0,0,0,0.3) inset;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.3) inset;
     outline: none;
 }
-.form-horizontal .user-login{
+
+.form-horizontal .user-login {
     color: #333;
     font-size: 16px;
     font-weight: 600;
     text-align: center;
     display: block;
 }
-.form-horizontal .user-login a{
+
+.form-horizontal .user-login a {
     color: #0cd674;
     transition: all 0.3s ease 0s;
 }
-.form-horizontal .user-login a:hover{ color: #555; }
+
+.form-horizontal .user-login a:hover {
+    color: #555;
+}
 
 
-@media only screen and (max-width:576px){
+@media only screen and (max-width:576px) {
+
     .form-container .form-group,
     .form-container .form-group:nth-child(even),
     .form-container .form-group.phone-no,
-    .form-container .form-group.age{
+    .form-container .form-group.age {
         width: 100%;
         margin: 0 0 25px;
     }
@@ -120,29 +145,29 @@
 
 
 
-.bg-image2{
+.bg-image2 {
     background-image: url("../../../assets/investback.jpg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-   
+
 }
 
-.form-bg{
-   padding: 20px;
+.form-bg {
+    padding: 20px;
+    border-radius: 10px;
 }
 
-
-
-  .img-display-before{  
+.img-display-before {
     border-radius: 50%;
-  }
+}
 
-  .img-display-after{
+.img-display-after {
     border-radius: 50%;
-    
-  }
-  .shadow__btn {
+
+}
+
+.shadow__btn {
     padding: 10px 20px;
     border: none;
     font-size: 14px;
@@ -153,16 +178,16 @@
     text-transform: uppercase;
     transition: 0.5s;
     transition-property: box-shadow;
-  }
-  
-  .shadow__btn {
+}
+
+.shadow__btn {
     background: rgb(255, 30, 0);
     box-shadow: 0 0 25px rgb(255, 72, 0);
-  }
-  
-  .shadow__btn:hover {
+}
+
+.shadow__btn:hover {
     box-shadow: 0 0 5px rgb(255, 38, 0),
-                0 0 25px rgb(255, 60, 0),
-                0 0 50px rgb(255, 51, 0),
-                0 0 100px rgb(255, 72, 0);
-  }
+        0 0 25px rgb(255, 60, 0),
+        0 0 50px rgb(255, 51, 0),
+        0 0 100px rgb(255, 72, 0);
+}

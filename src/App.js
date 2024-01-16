@@ -16,6 +16,7 @@ import Scheme from './Components/Dashboard/Pages/Scheme';
 import Loan from './Components/Dashboard/Pages/Loan';
 import LoanCollection from './Components/Dashboard/Pages/LoanCollection';
 import Reports from './Components/Dashboard/Pages/Reports';
+import Customer from './Components/Dashboard/Pages/Customer';
 
 function App() {
   const [showNav, setShowNav] = useState(true);
@@ -52,6 +53,7 @@ function App() {
           <Route path='/home' exact={true} Component={Dashboard} />
           <Route path='/investor' exact={true} Component={Investor} />
           <Route path='/collectionmember' exact={true} Component={CollectionMember} />
+          <Route path='/customer' exact={true} Component={Customer} />
           <Route path='/assignaccount' exact={true} Component={AssignAccount} />
           <Route path='/scheme' exact={true} Component={Scheme} />
           <Route path='/loan' exact={true} Component={Loan} />

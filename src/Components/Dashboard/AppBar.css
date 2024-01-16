@@ -1,6 +1,6 @@
-header{
-    height:max-content;
-    background-color: #1D044D ;
+header {
+    height: max-content;
+    background-color: #1D044D;
     padding: 10px 30px;
     color: white;
     display: flex;
@@ -8,65 +8,78 @@ header{
     justify-content: space-between;
     align-items: baseline;
 }
-.logout{
+
+.logout {
     height: 50px;
 }
-.action{
+
+.action {
     display: flex;
     flex-direction: row;
 
 }
-.avatar{
+
+.avatar {
     height: 35px;
     width: 35px;
     border-radius: 50%;
 }
-.avatarlabel{
+
+.avatarlabel {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-header svg{
+
+header svg {
     font-size: 25px;
 }
-.sidenav{
+
+.sidenav {
     width: max-content;
-    background-color: #1D044D ;
+    background-color: #1D044D;
     position: absolute;
-    min-height: 95vh;
+    min-height:max-content;
     padding: 0 30px;
     left: -100%;
     transition: all 1s;
 }
 
-.sidenav.active{
+.sidenav.active {
     left: 0;
+   
 }
-.logo{
+
+.logo {
     width: 60px;
 }
 
-ul{
+ul {
     padding: 0;
 }
-ul li{
+
+ul li {
     list-style-type: none;
-    margin: 10px 0;;
+    margin: 10px 0;
+    ;
 }
-ul li a{
+
+ul li a {
     color: blanchedalmond;
     text-decoration: none;
     font-size: 20px;
     display: block;
     padding: 10px 15px;
     border-radius: 5px;
-    
+
 }
+
 ul li a svg {
     margin-right: 5px;
     margin-top: -5px;
 }
+
 ul li a:hover,
-ul li a:active{
+ul li a:active {
     background-color: darkorchid;
 }

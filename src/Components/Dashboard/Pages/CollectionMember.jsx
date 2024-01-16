@@ -24,39 +24,39 @@ const CollectionMember = () => {
                 <h3 class="title">Collection Member Register</h3>
                 <form class="form-horizontal">
                   <div class="form-group">
-                    <label >Account Number*</label>
-                    <input class="form-control" type="text" />
+                    <label>Upload Profile*</label>
+                    <div onClick={handleImageClick}>
+
+                      {image ? (<img src={URL.createObjectURL(image)} alt="ddsd" height={100} width={100} className='img-display-before' />)
+                        : <img src={require('../../../assets/upload.png')} alt="ddsd" height={100} width={100} className='img-display-after' />}
+                      <input class="form-control" type="file" onChange={handleImageChange} ref={inputRef} style={{ display: "none" }} />
+                    </div>
+                  </div>
+                  <div>
+
                   </div>
                   <div class="form-group">
-                    <label >Account Name*</label>
+                    <label >Name*</label>
                     <input class="form-control" type="text" />
                   </div>
                   <div class="form-group">
                     <label>Aadhar Number*</label>
-                    <input class="form-control"  type="text"/>
+                    <input class="form-control" type="text" />
                   </div>
                   <div class="form-group">
                     <label>Contact Number*</label>
-                    <input class="form-control"  type="text"/>
+                    <input class="form-control" type="text" />
                   </div>
                   <div class="form-group">
                     <label>Address*</label>
-                    <textarea class="form-control"  type="text"/>
+                    <textarea class="form-control" type="text" />
                   </div>
                   <div class="form-group">
                     <label>Status*</label>
-                    <input class="form-control" type="text"/>
+                    <input class="form-control" type="text" />
                   </div>
-                  <div class="form-group">
-                    <label>Upload Profile*</label>
-                    <div onClick={handleImageClick}>
 
-                      {image ? (<img src={URL.createObjectURL(image)} alt="ddsd" height={100} width={100} className='img-display-before'/>)
-                        : <img src={require('../../../assets/upload.png')} alt="ddsd" height={100} width={100} className='img-display-after'/>}
-                      <input class="form-control" type="file" onChange={handleImageChange} ref={inputRef} style={{ display: "none" }} />
-                    </div>
-                  </div>
-                <center><button className="shadow__btn">Create Account</button></center>
+                  <center><button className="shadow__btn">Create Account</button></center>
 
                 </form>
 
